@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    background-color: #15090A;
+    background-image: url("./../img/bg/bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    color: #fff;
+}
+/* BASE */
+
+.container-wide{
+    margin: 0 auto;
+    width: 1760px;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.container {
+    min-width: 1492px;
+    margin-left: auto;
+    margin-right: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* HEADER */
+
+.header {
+    padding-top: 64px;
+    margin-bottom: 843px;
+}
+
+.nav-wrapper {
+    margin-bottom: 198px;
+    
+}
+
+.logo{
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 7px;
+
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 800px;
+    
+}
+
+.nav li {
+    margin-left: 40px;
+    float:right;
+    
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+     
+}
+
+.nav a:hover {
+    color:#F9FE05;
+}
+
+.hero-title:hover{
+    color:#F9FE05;
+}
+
+.profile {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#fff;
+    transition: color 0.2s ease-in;
+}
+
+.profile:hover {
+    color:#F9FE05;
+}
+
+.hero {
+    display:block;
+   max-width: 980px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   text-decoration: none;
+   transition: transform 0.2s ease-in;
+}
+
+
+
+.hero-title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 88px;
+    line-height: 1.136;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.article {
+    margin-bottom: 100px;
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-text {
+    position:relative;
+    padding-left: 150px;
+    max-width: 732px;
+}
+
+
+.article-text p {
+    padding-left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+
+.article-title{
+    padding-left: 100px;
+    margin-bottom: 27px;
+    max-width: 600px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.2;
+    color: #F9FE05;
+}
+
+
+.article-img {
+    display: block;
+    float:right;
+
+}
+
+
+.article:nth-child(even){
+    flex-direction: row-reverse;
+    margin-left: 200px;
+    margin-right: 150px;
+    
+}
+
+.article-img img:nth-child(odd){
+    padding-left: 0px;
+    padding-right: 200px;
+}
+
+
+
+.footer-copyright{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;    
+}
+
+
+
+.footer-copyright-desc{
+    font-family:"Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.78;
+}
+
+
+.footer-copyright-terms{
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.78;
+    color:rgba(255, 255, 255, 0.5)
+
+}
+
